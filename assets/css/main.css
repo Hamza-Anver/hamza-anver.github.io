@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: #24232b;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -115,7 +115,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.55);
+		color: rgba(255, 255, 255, 0.727);
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
@@ -197,10 +197,10 @@ input, select, textarea {
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #5538d6, #22a93d);
+				background-image: -webkit-linear-gradient(to right, #5538d6, #22a93d);
+				background-image: -ms-linear-gradient(to right, #5538d6, #22a93d);
+				background-image: linear-gradient(to right, #5538d6, #22a93d);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -2126,10 +2126,10 @@ input, select, textarea {
 			}
 
 			.features section:nth-child(15) .icon {
-				-moz-transition-delay: 2.25s;
-				-webkit-transition-delay: 2.25s;
-				-ms-transition-delay: 2.25s;
-				transition-delay: 2.25s;
+				-moz-transition-delay: 0.8;
+				-webkit-transition-delay: 0.8;
+				-ms-transition-delay: 0.8;
+				transition-delay: 0.8;
 			}
 
 			.features section:nth-child(16) .icon {
@@ -2444,7 +2444,7 @@ input, select, textarea {
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
 			border-color: #ffffff;
-			color: #b74e91;
+			color: #604eb7;
 			content: '\f00c';
 		}
 
@@ -2536,27 +2536,27 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #5e42a6;
+					color: #424ca6;
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #493382;
+					color: #335582;
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: #5052b5;
+					color: #476091;
 				}
 
 				.wrapper.style2-alt .icon.major:before {
-					color: #3e4094;
+					color: #4244c9;
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					color: #308d4c;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #953d75;
+					color: #287432;
 				}
 
 /* Image */
@@ -2867,7 +2867,7 @@ input, select, textarea {
 	}
 
 	header p {
-		color: rgba(255, 255, 255, 0.35);
+		color: rgb(39, 39, 39);
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -3240,27 +3240,27 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #4e5459;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #5b6275;
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #585b77;
 		}
 
 		.wrapper.style2-alt {
-			background-color: #3e4094;
+			background-color: #6d8796;
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #3f718f;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: #3d8095;
 		}
 
 		.wrapper.fullscreen {
@@ -3277,6 +3277,12 @@ input, select, textarea {
 			-ms-justify-content: center;
 			justify-content: center;
 			min-height: 100vh;
+			position: relative;
+			height: 100vh;
+			scroll-behavior: smooth;
+			overflow-x: hidden;
+			overflow: auto;
+			scroll-snap-type: y mandatory;
 		}
 
 			body.is-ie .wrapper.fullscreen {
@@ -3313,10 +3319,10 @@ input, select, textarea {
 			-webkit-transform: translateY(0);
 			-ms-transform: translateY(0);
 			transform: translateY(0);
-			-moz-transition: opacity 1s ease, -moz-transform 1s ease;
-			-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
-			-ms-transition: opacity 1s ease, -ms-transform 1s ease;
-			transition: opacity 1s ease, transform 1s ease;
+			-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease;
+			-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease;
+			-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease;
+			transition: opacity 0.5s ease, transform 0.5s ease;
 			opacity: 1.0;
 		}
 
@@ -3334,10 +3340,10 @@ input, select, textarea {
 			-webkit-transform: translateY(0);
 			-ms-transform: translateY(0);
 			transform: translateY(0);
-			-moz-transition: opacity 1s ease, -moz-transform 1s ease;
-			-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
-			-ms-transition: opacity 1s ease, -ms-transform 1s ease;
-			transition: opacity 1s ease, transform 1s ease;
+			-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease;
+			-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease;
+			-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease;
+			transition: opacity 0.5s ease, transform 0.5s ease;
 			opacity: 1.0;
 		}
 
@@ -3351,10 +3357,10 @@ input, select, textarea {
 		}
 
 		.wrapper.fade > .inner {
-			-moz-transition: opacity 1s ease;
-			-webkit-transition: opacity 1s ease;
-			-ms-transition: opacity 1s ease;
-			transition: opacity 1s ease;
+			-moz-transition: opacity 10 ease;
+			-webkit-transition: opacity 10s ease;
+			-ms-transition: opacity 10s ease;
+			transition: opacity 10s ease;
 			opacity: 1.0;
 		}
 
@@ -3370,14 +3376,14 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: #2e2d2d;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
 
 		#header > .title {
 			border: 0;
-			color: #ffffff;
+			color: #cecccc;
 			display: block;
 			font-size: 1.25em;
 			font-weight: bold;
@@ -3513,7 +3519,7 @@ input, select, textarea {
 
 	#footer > .inner .menu {
 		font-size: 0.8em;
-		color: rgba(255, 255, 255, 0.15);
+		color: rgba(255, 255, 255, 0.288);
 	}
 
 	#header + #wrapper + #footer > .inner {
@@ -3524,7 +3530,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #3b3c40;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3554,10 +3560,10 @@ input, select, textarea {
 			-webkit-transform: translateY(0);
 			-ms-transform: translateY(0);
 			transform: translateY(0);
-			-moz-transition: opacity 1s ease;
-			-webkit-transition: opacity 1s ease;
-			-ms-transition: opacity 1s ease;
-			transition: opacity 1s ease;
+			-moz-transition: opacity 0.5s ease;
+			-webkit-transition: opacity 0.5s ease;
+			-ms-transition: opacity 0.5s ease;
+			transition: opacity 0.5s ease;
 			min-height: 100%;
 			opacity: 1;
 			width: 100%;
@@ -3592,38 +3598,38 @@ input, select, textarea {
 				}
 
 				#sidebar nav > ul > li:nth-child(1) {
-					-moz-transition-delay: 0.45s;
-					-webkit-transition-delay: 0.45s;
-					-ms-transition-delay: 0.45s;
-					transition-delay: 0.45s;
+					-moz-transition-delay: 0s;
+					-webkit-transition-delay: 0s;
+					-ms-transition-delay: 0s;
+					transition-delay: 0s;
 				}
 
 				#sidebar nav > ul > li:nth-child(2) {
-					-moz-transition-delay: 0.65s;
-					-webkit-transition-delay: 0.65s;
-					-ms-transition-delay: 0.65s;
-					transition-delay: 0.65s;
+					-moz-transition-delay: 0.2s;
+					-webkit-transition-delay: 0.2s;
+					-ms-transition-delay: 0.2s;
+					transition-delay: 0.2s;
 				}
 
 				#sidebar nav > ul > li:nth-child(3) {
-					-moz-transition-delay: 0.85s;
-					-webkit-transition-delay: 0.85s;
-					-ms-transition-delay: 0.85s;
-					transition-delay: 0.85s;
+					-moz-transition-delay: 0.4s;
+					-webkit-transition-delay: 0.4s;
+					-ms-transition-delay: 0.4s;
+					transition-delay: 0.4s;
 				}
 
 				#sidebar nav > ul > li:nth-child(4) {
-					-moz-transition-delay: 1.05s;
-					-webkit-transition-delay: 1.05s;
-					-ms-transition-delay: 1.05s;
-					transition-delay: 1.05s;
+					-moz-transition-delay: 0.6s;
+					-webkit-transition-delay: 0.6s;
+					-ms-transition-delay: 0.6s;
+					transition-delay: 0.6s;
 				}
 
 				#sidebar nav > ul > li:nth-child(5) {
-					-moz-transition-delay: 1.25s;
-					-webkit-transition-delay: 1.25s;
-					-ms-transition-delay: 1.25s;
-					transition-delay: 1.25s;
+					-moz-transition-delay: 0.8;
+					-webkit-transition-delay: 0.8;
+					-ms-transition-delay: 0.8;
+					transition-delay: 0.8;
 				}
 
 				#sidebar nav > ul > li:nth-child(6) {
@@ -3655,10 +3661,10 @@ input, select, textarea {
 				}
 
 				#sidebar nav > ul > li:nth-child(10) {
-					-moz-transition-delay: 2.25s;
-					-webkit-transition-delay: 2.25s;
-					-ms-transition-delay: 2.25s;
-					transition-delay: 2.25s;
+					-moz-transition-delay: 0.8;
+					-webkit-transition-delay: 0.8;
+					-ms-transition-delay: 0.8;
+					transition-delay: 0.8;
 				}
 
 				#sidebar nav > ul > li:nth-child(11) {
@@ -3690,21 +3696,21 @@ input, select, textarea {
 				}
 
 				#sidebar nav > ul > li:nth-child(15) {
-					-moz-transition-delay: 3.25s;
-					-webkit-transition-delay: 3.25s;
-					-ms-transition-delay: 3.25s;
-					transition-delay: 3.25s;
+					-moz-transition-delay: 0.8s;
+					-webkit-transition-delay: 0.8s;
+					-ms-transition-delay: 0.8s;
+					transition-delay: 0.8s;
 				}
 
 				#sidebar nav > ul > li:nth-child(16) {
-					-moz-transition-delay: 3.45s;
-					-webkit-transition-delay: 3.45s;
-					-ms-transition-delay: 3.45s;
-					transition-delay: 3.45s;
+					-moz-transition-delay: 1s;
+					-webkit-transition-delay: 1s;
+					-ms-transition-delay: 1s;
+					transition-delay: 1s;
 				}
 
 				#sidebar nav > ul > li:nth-child(17) {
-					-moz-transition-delay: 3.65s;
+					-moz-transition-delay: s;
 					-webkit-transition-delay: 3.65s;
 					-ms-transition-delay: 3.65s;
 					transition-delay: 3.65s;
@@ -3725,19 +3731,19 @@ input, select, textarea {
 				}
 
 				#sidebar nav > ul > li:nth-child(20) {
-					-moz-transition-delay: 4.25s;
-					-webkit-transition-delay: 4.25s;
-					-ms-transition-delay: 4.25s;
-					transition-delay: 4.25s;
+					-moz-transition-delay: 0.8;
+					-webkit-transition-delay: 0.8;
+					-ms-transition-delay: 0.8;
+					transition-delay: 0.8;
 				}
 
 		#sidebar nav a {
-			-moz-transition: color 0.2s ease;
-			-webkit-transition: color 0.2s ease;
-			-ms-transition: color 0.2s ease;
-			transition: color 0.2s ease;
+			-moz-transition: color 0.1s ease;
+			-webkit-transition: color 0.1s ease;
+			-ms-transition: color 0.1s ease;
+			transition: color 0.1s ease;
 			border: 0;
-			color: rgba(255, 255, 255, 0.35);
+			color: rgba(255, 255, 255, 0.805);
 			display: block;
 			font-size: 0.6em;
 			font-weight: bold;
@@ -3761,23 +3767,23 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #858585;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
-				-moz-transition: max-width 0.2s ease;
-				-webkit-transition: max-width 0.2s ease;
-				-ms-transition: max-width 0.2s ease;
-				transition: max-width 0.2s ease;
+				background-image: -moz-linear-gradient(to right, #0112ab, #51b74e);
+				background-image: -webkit-linear-gradient(to right, #0112ab, #51b74e);
+				background-image: -ms-linear-gradient(to right, #0112ab, #51b74e);
+				background-image: linear-gradient(to right, #0112ab, #51b74e);
+				-moz-transition: max-width 0.1s ease;
+				-webkit-transition: max-width 0.1s ease;
+				-ms-transition: max-width 0.1s ease;
+				transition: max-width 0.1s ease;
 				max-width: 0;
 			}
 
 			#sidebar nav a:hover {
-				color: rgba(255, 255, 255, 0.55);
+				color: rgba(255, 255, 255, 0.803);
 			}
 
 			#sidebar nav a.active {
@@ -3857,7 +3863,7 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: #272727;
 						}
 
 		}
