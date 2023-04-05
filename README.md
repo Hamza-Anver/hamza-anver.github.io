@@ -3,4 +3,4 @@ Website for stuff
 
 Also a portfolio of some projects
 
-https://hamza-anver.github.io/
+https://hamzaanver.com/
