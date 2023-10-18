@@ -74,13 +74,13 @@ body {
   
   
   .line4 {
-	color: #a7a8aa;
+	color: #515152;
 	-webkit-animation: type .25s 2.7s steps(5, end) forwards;
 	-moz-animation: type .25s 2.7s steps(5, end) forwards;
 	-o-animation: type .25s 2.7s steps(5, end) forwards;
 	animation: type .25s 2.7s steps(5, end) forwards;
   }
-  
+
   .line5 {
 	color: #fff;
 	-webkit-animation: type .5s 3s steps(5, end) forwards;
