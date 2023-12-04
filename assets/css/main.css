@@ -63,8 +63,19 @@ body {
 	color: #f7673b;
   }
   
+  .link3{
+	color: #db5d37;
+  }
   
   .line3 {
+	color: rgb(172, 208, 214);
+	-webkit-animation: type .25s 2.5s steps(5, end) forwards;
+	-moz-animation: type .25s 2.5s steps(5, end) forwards;
+	-o-animation: type .25s 2.5s steps(5, end) forwards;
+	animation: type .25s 2.5s steps(5, end) forwards;
+  }
+
+  .line4 {
 	color: #E09690;
 	-webkit-animation: type .25s 2.5s steps(5, end) forwards;
 	-moz-animation: type .25s 2.5s steps(5, end) forwards;
@@ -73,7 +84,7 @@ body {
   }
   
   
-  .line4 {
+  .line5 {
 	color: #515152;
 	-webkit-animation: type .25s 2.7s steps(5, end) forwards;
 	-moz-animation: type .25s 2.7s steps(5, end) forwards;
@@ -81,7 +92,7 @@ body {
 	animation: type .25s 2.7s steps(5, end) forwards;
   }
 
-  .line5 {
+  .line6 {
 	color: #fff;
 	-webkit-animation: type .5s 3s steps(5, end) forwards;
 	-moz-animation: type .5s 3s steps(5, end) forwards;
