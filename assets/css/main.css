@@ -17,7 +17,7 @@ body {
   
   p {
 	position: relative;
-	left: 40%;
+	left: 20%;
 	margin-left: -8.5em;
 	text-align: left;
 	font-size: 1.5em;
@@ -64,7 +64,10 @@ body {
   }
   
   .link3{
-	color: #b85233;
+	color: rgb(155, 184, 51);
+  }
+  .link3{
+	color: #33b845;
   }
   
   .line3 {
