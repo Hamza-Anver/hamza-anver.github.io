@@ -1,12 +1,15 @@
 function show() {
     document.getElementById('contact-form').classList.remove('hide');
     document.getElementById('contact-form-button').classList.add('hide');
+    clearTimeout(buttontimeout);
     typing_anim(0, 'contact-form', "", 1, -1, -1,4);
 }
 function submit_contact_form() {
     document.getElementById('contact-form').className = 'hide';
     document.getElementById('contact-form-dialog').innerHTML = "<div class='terminal-alert terminal-alert-primary'>You should be redirected to formsubmit.co now</div>";
 }
+
+var buttontimeout;
 
 function typing_anim(i = 0, elem_id = "", text = "", elem_speed = 50, elem_counter = 0, manager_delay = 100, elem_step=0) {
     if (text === "") {
@@ -25,7 +28,7 @@ function typing_anim(i = 0, elem_id = "", text = "", elem_speed = 50, elem_count
         i+=elem_step;
         i=Math.min(i,text.length+1);
     }
-    setTimeout(typing_anim, elem_speed, i, elem_id, text, elem_speed, elem_counter, elem_delay, elem_step);
+    buttontimeout=setTimeout(typing_anim, elem_speed, i, elem_id, text, elem_speed, elem_counter, elem_delay, elem_step);
 }
 
 var elem_anims = [
