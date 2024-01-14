@@ -2,7 +2,7 @@
 <!--
 	CSS styling taken from terminalcss.xyz
 	The stuff here is an abomination, I will regret the poor state of things later
-	This website was a fun excursion into webdevelopment
+	This website was a fun excursion into web dev
 -->
 <html>
 
@@ -77,6 +77,8 @@
 		<div>
 			<button id="contact-form-button" class="btn btn-default btn-block hide" onclick="show()">Contact me</button>
 			<form action="https://formsubmit.co/mail@hamzaanver.com" method="POST" id="contact-form" class="">
+				<input type="hidden" name="_next" value="https://hamzaanver.com/submitted.html">
+				<input type="hidden" name="_template" value="table">
 				<fieldset style="border-color:#1a8eb1;">
 					<legend>Contact Me</legend>
 					<div class="form-group">
