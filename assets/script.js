@@ -1,3 +1,5 @@
+// Written from scratch as a JS exercise, which is why it's bad
+
 function show() {
     document.getElementById('contact-form').classList.remove('hide');
     document.getElementById('contact-form-button').classList.add('hide');
