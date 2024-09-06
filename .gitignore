@@ -1,0 +1,6 @@
+# Hugo build output
+/public/
+/resources/_gen/
+
+# System-specific files
+.DS_Store
