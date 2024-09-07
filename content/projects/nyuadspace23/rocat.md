@@ -10,7 +10,7 @@ cover:
   caption: "HALOSHIP's electronics bay"
 ---
 
-Another, part I helped develop while at nyuad.space was RoCat v1.1.0, a high speed data logger and flight computer.
+Another part I helped develop while at nyuad.space was RoCat v1.1.0, a high speed data logger and flight computer.
 
 <!--more-->
 

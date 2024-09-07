@@ -74,28 +74,31 @@ params:
 
       - I'm interested in embedded systems, cats, electronics, computers, game dev and a bunch of other tangential subjects.
 
-      - In the Summer of 2024, I interned at [Sri Lanka Telecom's Digital Lab](https://www.sltdigitallab.lk/), where I worked on [generating synthetic data](/projects/sltdl24/anpr/) to train an ML model on Sri Lankan License Plates. I also worked on an [embedded library for Industrial IoT to facilitate configuration of MQTT communication and updates via LTE and WiFi](/projects/sltdl24/mqttcomms/).
+      - In the Summer of 2024, I interned at [**Sri Lanka Telecom's Digital Lab**](https://www.sltdigitallab.lk/), where I worked on [**generating synthetic data**](/projects/sltdl24/anpr/) to train an ML model on Sri Lankan License Plates. I also worked on an 
+      [**embedded library**](/projects/sltdl24/mqttcomms/) for Industrial IoT to facilitate configuration of MQTT communication and updates via LTE and WiFi.
 
       -
 
-      - In the Spring and Summer of 2023, I worked in [nyuad.space](https://nyuad-space.github.io/), a rocketry team of five Engineering and Computer Science students based in NYUAD’s Engineering Design Studio. During my time on the team, I contributed to: [an HDRM in collaboration with JUCI](/projects/nyuadspace/hdrm/), the [HALOSHIP high-powered amateur rocket](/projects/nyuadspace/haloship/), and [Rocat v1.1 a custom high-speed data logger and flight computer](/projects/nyuadspace/rocat/).
+      - In the Spring and Summer of 2023, I worked in [**nyuad.space**](https://nyuad-space.github.io/), a rocketry team of five Engineering and Computer Science students based in NYUAD’s Engineering Design Studio. 
+      During my time on the team, I contributed to: [**an HDRM in collaboration with JUCI**](/projects/nyuadspace/hdrm/), the [**HALOSHIP high-powered amateur rocket**](/projects/nyuadspace/haloship/), and [**Rocat v1.1**](/projects/nyuadspace/rocat/) - a custom high-speed data logger and flight computer.
 
       -
 
-      - Beyond that I also work on personal projects, a recent one is a web based [Gridfinity Generator](https://hamza-anver.github.io/Gridfinity-Generator/), based on Zack Freedman (VoidStarLab)'s' Gridfinity.
+      - Beyond that I also work on personal projects, a recent one is a web based [**Gridfinity Generator**](https://hamza-anver.github.io/Gridfinity-Generator/), based on Zack Freedman (VoidStarLab)'s Gridfinity.
 
-      -
-
-      - Links:
-
-      - -**[GitHub](https://github.com/Hamza-Anver)**
-
-      - -**[LinkedIn](https://www.linkedin.com/in/a-hamza-anver/)**
-
-      - -**[Instagram](https://www.instagram.com/hamza.anver/)**
-
-      - -**[Resume](/Aug312024_CV.pdf)**
-
+  socialIcons:
+  - name: "github"
+    url: "https://github.com/Hamza-Anver"
+  - name: "LinkedIn"
+    url: "https://www.linkedin.com/in/a-hamza-anver/"
+  - name: "Instagram"
+    url: "https://www.instagram.com/hamza.anver/"
+  - name: "cv"
+    url: "/Aug312024_CV.pdf"
+  
+  footer:
+    text: >
+      **[GitHub](https://github.com/Hamza-Anver) · [LinkedIn](https://www.linkedin.com/in/a-hamza-anver/) · [Instagram](https://www.instagram.com/hamza.anver/) · [Resume](/Aug312024_CV.pdf)**
 
 services:
   instagram:

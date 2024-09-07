@@ -1,5 +1,9 @@
 {{- if not (.Param "hideFooter") }}
 <footer class="footer">
+    {{- with site.Params.footer.text }}
+        {{ . | markdownify }}
+    {{- end }}
+    <br>
     {{- if not site.Params.footer.hideCopyright }}
         {{- if site.Copyright }}
         <span>{{ site.Copyright | markdownify }}</span>
@@ -9,10 +13,7 @@
         {{- print " · "}}
     {{- end }}
 
-    {{- with site.Params.footer.text }}
-        {{ . | markdownify }}
-        {{- print " · "}}
-    {{- end }}
+    
 
     <span>
         Powered by
