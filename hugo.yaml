@@ -94,11 +94,11 @@ params:
   - name: "Instagram"
     url: "https://www.instagram.com/hamza.anver/"
   - name: "cv"
-    url: "/Aug312024_CV.pdf"
+    url: "/HamzaResume.pdf"
   
   footer:
     text: >
-      **[GitHub](https://github.com/Hamza-Anver) · [LinkedIn](https://www.linkedin.com/in/a-hamza-anver/) · [Instagram](https://www.instagram.com/hamza.anver/) · [Resume](/Aug312024_CV.pdf)**
+      **[GitHub](https://github.com/Hamza-Anver) · [LinkedIn](https://www.linkedin.com/in/a-hamza-anver/) · [Instagram](https://www.instagram.com/hamza.anver/) · [Resume](/HamzaResume.pdf)**
 
 services:
   instagram:
