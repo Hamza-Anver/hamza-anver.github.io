@@ -2,7 +2,7 @@
 author: " "
 title: "SLT / ANPR Data Generation"
 date: "2024-07-01"
-description: "Blender system to generate synthetic images for ANPR training"
+description: "Synthetic images with Blender and Python to train an ML model for Automatic Number Plate Recognition"
 series: ["slt.dl"]
 aliases: ["anpr-gen-24"]
 cover:
@@ -10,14 +10,15 @@ cover:
   caption: "An example of a post processed synthetic image"
 ---
 
-At SLT I worked on creating a system to generate synthetic images for training Automatic Number Plate Recognition (ANPR) systems. The system was built using Blender, and Python.
+At SLT, I worked on developing a system to generate synthetic images for training Automatic Number Plate Recognition (ANPR) systems using Blender and Python.
 
 <!--more-->
 
-Another team of SLT interns were working on building a system to automatically manage parking spaces, including recognizing number plates, managing raising and lowering the gates, and providing a web interface for configuration, viewing and management. The ML model runs locally on a Jetson Nano to reduce latency, the team was running into a few issues with limited images of Sri Lankan license plates to train and test their model. I proposed to create synthetic images for training and testing. Using the industry standard of Nvidia Omniverse was my first preference but using that was not possible for SLT. So I turned to Blender instead. 
+Another team of SLT interns was tasked with building an automated parking management system. This system included recognizing license plates, managing gate controls, and providing a web interface for configuration and monitoring. The machine learning model for number plate recognition ran locally on a Jetson Nano to minimize latency, but the team faced challenges due to a limited dataset of Sri Lankan license plates for training and testing. I proposed generating synthetic images to supplement their dataset.
 
-I created a Python script that read license plate designs from a JSON file, then created an image with the texture of the plate, and a corresponding bump map. Then in blender the plate textures were loaded into a scene, with grunge/dirt being applied by a Blender addon. Exported images were then processed by another Python script to add camera artifacts and distortion to simulate images closer to real life conditions.
-This approach was tested with the current ML model showing some shortfalls. Full automation of these steps is being worked on by other SLT interns, with more scenes and conditions being added.
+Initially, I considered using Nvidia Omniverse, an industry-standard tool for generating synthetic data, but it wasn’t feasible for SLT. As a result, I turned to Blender. I wrote a Python script that read license plate designs from a JSON file, then created images with corresponding textures and bump maps. These textures were imported into Blender, where a grunge/dirt effect was applied using a Blender addon to simulate real-world conditions. The rendered images were then processed by another Python script that introduced camera artifacts and distortions, making the images more closely resemble real-life data.
+
+This approach was tested with the current machine learning model, and while it showed some promise, a few shortcomings were identified. The full automation of the process, along with the addition of more varied scenes and conditions, is being handled by other SLT interns.
 
 
 
