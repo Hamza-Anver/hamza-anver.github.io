@@ -22,4 +22,6 @@ Two prototypes were made, which were used for stage separation in HALOSHIP. The 
 
 After being tested the prototypes and a display model were presented to our mentor's at JPL in California, with future improvements discussed.
 
+Check out the [nyuad.space's website Here](https://nyuad-space.github.io/)
+
 {{< image-with-caption src="images/jplcleanroom.jpg" caption="JPL's clean room" >}}

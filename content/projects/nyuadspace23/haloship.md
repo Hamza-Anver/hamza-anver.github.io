@@ -22,5 +22,7 @@ HALOSHIP was successfully launched to its target altitude of 10,000 feet and rec
 
 Check out the project's [GitHub repository here](https://github.com/haloship)
 
+Check out the [nyuad.space's website Here](https://nyuad-space.github.io/)
+
 
 {{< image-with-caption src="images/sacup23sky.png" caption="Rocket trails in New Mexico" >}}

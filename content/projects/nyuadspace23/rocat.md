@@ -6,7 +6,7 @@ description: "Modular flight computer for high-powered rockets, focusing on data
 series: ["nyuad.space"]
 aliases: ["rocat-23"]
 cover:
-  image: images/rocatcloseup.jpg
+  image: images/rocatkitchentable.png
   caption: "RoCat v1.1 Schematics"
 ---
 
@@ -25,6 +25,10 @@ The software for RoCat v1.1 was developed using the Arduino Framework and stm32d
 For a more detailed write-up, check out this [PDF](/RoCat_Portfolio.pdf).
 
 You can also find the design files for the PCB at [Open Source Hardware Lab](https://oshwlab.com/aha9251/rocatboardone).
+
+Check out the [nyuad.space's website Here](https://nyuad-space.github.io/)
+
+The early iteration of the board's firmware is available on [GitHub](https://github.com/nyuad-space/roCat-fc).
 
 
 {{< image-with-caption src="images/rocats1to4.png" caption="The RoCat v1.1.0's" >}}
