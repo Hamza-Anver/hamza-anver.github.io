@@ -69,7 +69,10 @@
                 {{- else if hasPrefix site.Params.label.iconSVG "<svg" }}
                     {{ site.Params.label.iconSVG | safeHTML }}
                 {{- end -}}
-                {{- $label_text -}}
+                <span style='font-weight: 600; font-family: "Menlo", "Monaco", "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", serif;'>
+                    {{- $label_text -}}
+                </span>
+                
             </a>
             {{- end }}
             <div class="logo-switches">
