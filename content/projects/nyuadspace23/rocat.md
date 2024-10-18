@@ -6,7 +6,7 @@ description: "Modular flight computer for high-powered rockets, focusing on data
 series: ["nyuad.space"]
 aliases: ["rocat-23"]
 cover:
-  image: images/rocatkitchentable.png
+  image: images/rocatpcblayout.png
   caption: "RoCat v1.1 Schematics"
 ---
 
