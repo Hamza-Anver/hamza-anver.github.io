@@ -1,0 +1,129 @@
+.main {
+    position: relative;
+    min-height: calc(100vh - var(--header-height) - var(--footer-height));
+    max-width: calc(var(--main-width) + var(--gap) * 2);
+    margin: auto;
+    padding: var(--gap);
+}
+
+.projects-list {
+    position: relative;
+    flex-wrap: wrap;
+    left: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--gap);
+}
+
+.header-split {
+    position: relative;
+    flex-wrap: wrap;
+    align-items: center;
+    left: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: var(--gap);
+}
+
+.metacard-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: var(--gap);
+    margin: var(--gap) 0;
+    margin-top: auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .projects-list {
+        grid-template-columns: 1fr;
+    }
+    .header-split {
+        grid-template-columns: 1fr;
+        border-bottom: 3px solid var(--border);
+        margin-bottom: var(--gap);
+    }
+    .metacard-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.metacard-card {
+    aspect-ratio: 1 / 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: var(--gap);
+    border-radius: var(--radius);
+    border: 3px solid var(--border);
+}
+
+.metacard-card:hover {
+    transform: scale(1.04);
+    background-color: var(--entry);
+}
+
+.hidden-char {
+    opacity: 0;
+}
+
+.page-header h1 {
+    font-size: 40px;
+}
+
+.pagination {
+    display: flex;
+}
+
+.pagination a {
+    color: var(--theme);
+    font-size: 13px;
+    line-height: 36px;
+    background: var(--primary);
+    border-radius: calc(36px / 2);
+    padding: 0 16px;
+}
+
+.pagination .next {
+    margin-inline-start: auto;
+}
+
+
+.social-icons a {
+    display: inline-flex;
+    padding: 10px;
+}
+
+.social-icons a svg {
+    height: 26px;
+    width: 26px;
+}
+
+code {
+    direction: ltr;
+}
+
+div.highlight,
+pre {
+    position: relative;
+}
+
+.copy-code {
+    display: none;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgba(78, 78, 78, 0.8);
+    border-radius: var(--radius);
+    padding: 0 5px;
+    font-size: 14px;
+    user-select: none;
+}
+
+div.highlight:hover .copy-code,
+pre:hover .copy-code {
+    display: block;
+}
