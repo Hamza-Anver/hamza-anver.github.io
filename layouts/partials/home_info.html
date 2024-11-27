@@ -1,20 +1,92 @@
 {{- with site.Params.homeInfoParams }}
 <div class="header-split">
   <div>
-    <article class="first-entry home-info">
-      <header class="entry-header">
-        <h1>{{ .Title | markdownify }}</h1>
-      </header>
-      <div class="entry-content">{{ .Content | markdownify }}</div>
+    <article class="first-entry home-info index-term">
+      <div class="fakeMenu">
+        <div class="fakeButtons fakeClose"></div>
+        <div class="fakeButtons fakeMinimize"></div>
+        <div class="fakeButtons fakeZoom"></div>
+      </div>
+      <div class="index-term-body">
+        <header class="entry-header">
+          <h1>{{ .Title | markdownify }}</h1>
+        </header>
+        <div class="entry-content">{{ .Content | markdownify }}
+          <br>
+          $ <span class="cursor">_</span>
+        </div>
+        
+      </div>
+      
+      {{/*
       <footer class="entry-footer">
         {{ partial "social_icons.html" (dict "align"
         site.Params.homeInfoParams.AlignSocialIconsTo) }}
       </footer>
+      */}} {{/* Add cursor stuff here */}}
     </article>
   </div>
-  <div>
-    {{ partial "indexmetacard.html" . }}
-  </div>
+  <div>{{ partial "indexmetacard.html" . }}</div>
 </div>
+
+<script defer>
+  console.log("Home info script loaded");
+  // Function to recursively traverse and wrap text nodes
+  let element = document.getElementsByClassName("entry-content")[0];
+  let n = 0;
+  let speed = 3;
+  function wrapTextNodes(node) {
+    if (node.nodeType === Node.TEXT_NODE) {
+      const text = node.nodeValue;
+      const fragment = document.createDocumentFragment();
+
+      for (let char of text) {
+        const span = document.createElement("span");
+        span.textContent = char;
+        span.classList.add("hidden-char"); // Initially hidden
+        fragment.appendChild(span);
+      }
+
+      node.parentNode.replaceChild(fragment, node);
+    } else if (
+      node.nodeType === Node.ELEMENT_NODE &&
+      node.tagName.toLowerCase() !== "script" &&
+      node.tagName.toLowerCase() !== "style"
+    ) {
+      // Avoid scripts and styles
+      for (let child of Array.from(node.childNodes)) {
+        wrapTextNodes(child);
+      }
+    }
+  }
+
+  // Start wrapping text nodes
+  wrapTextNodes(element);
+
+  // Get all the span elements in order
+  const spans = element.querySelectorAll("span");
+  let totalChars = spans.length;
+
+  // Make the first n characters visible
+  let currentIndex = 0;
+  for (; currentIndex < Math.min(n, totalChars); currentIndex++) {
+    spans[currentIndex].classList.remove("hidden-char");
+    spans[currentIndex].classList.add("visible-char");
+  }
+
+  // Function to reveal the next character
+  function revealNextChar() {
+    if (currentIndex < totalChars) {
+      spans[currentIndex].classList.remove("hidden-char");
+      spans[currentIndex].classList.add("visible-char");
+      currentIndex++;
+      const randomSpeed = speed + Math.floor(Math.random() * 2);
+      setTimeout(revealNextChar, randomSpeed);
+    }
+  }
+
+  // Start revealing remaining characters
+  revealNextChar();
+</script>
 
 {{- end -}}
