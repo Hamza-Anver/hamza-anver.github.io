@@ -58,11 +58,17 @@
     padding: var(--gap);
     border-radius: var(--radius);
     border: 3px solid var(--border);
+    font-family: monospace;
+    font-size: 0.8rem;
 }
 
 .metacard-card:hover {
     transform: scale(1.04);
     background-color: var(--entry);
+}
+
+.metacard-card:active {
+    transform: scale(0.96);
 }
 
 .hidden-char {

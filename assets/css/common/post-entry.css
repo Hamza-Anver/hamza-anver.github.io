@@ -8,12 +8,13 @@
 }
 
 .fakeButtons {
+  position: absolute;
+  top: 8px;
   height: 10px;
   width: 10px;
   border-radius: 50%;
   border: 1px solid #000;
-  position: relative;
-  top: -2px;
+  top: 8px;
   left: 6px;
   background-color: #ff3b47;
   border-color: #9d252b;
@@ -21,13 +22,13 @@
 }
 
 .fakeMinimize {
-  left: 11px;
+  left: 22px;
   background-color: #ffc100;
   border-color: #9d802c;
 }
 
 .fakeZoom {
-  left: 16px;
+  left: 38px;
   background-color: #00d742;
   border-color: #049931;
 }
@@ -35,7 +36,8 @@
 .fakeMenu {
   width: 100%;
   box-sizing: border-box;
-  height: 25px;
+  text-align: center;
+  height: 27px;
   background-color: #bbb;
   margin: 0 auto;
   border-top-right-radius: 5px;
