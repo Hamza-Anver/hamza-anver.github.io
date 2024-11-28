@@ -37,7 +37,7 @@
   // Function to recursively traverse and wrap text nodes
   let element = document.getElementsByClassName("entry-content")[0];
   let n = 0;
-  let speed = 3;
+  let speed = 1;
   function wrapTextNodes(node) {
     if (node.nodeType === Node.TEXT_NODE) {
       const text = node.nodeValue;
@@ -80,11 +80,15 @@
   // Function to reveal the next character
   function revealNextChar() {
     if (currentIndex < totalChars) {
-      spans[currentIndex].classList.remove("hidden-char");
-      spans[currentIndex].classList.add("visible-char");
-      currentIndex++;
-      const randomSpeed = speed + Math.floor(Math.random() * 2);
-      setTimeout(revealNextChar, randomSpeed);
+      while(Math.floor(Math.random() * 5) > 1){
+        if(currentIndex >= totalChars){
+          break;
+        }
+        spans[currentIndex].classList.remove("hidden-char");
+        spans[currentIndex].classList.add("visible-char");
+        currentIndex++;
+      }
+      setTimeout(revealNextChar, 1);
     }
   }
 
