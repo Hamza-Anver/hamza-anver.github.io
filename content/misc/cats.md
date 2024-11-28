@@ -13,8 +13,10 @@ Cute cats!
 
 {{< image-with-caption src="catimages/hazelbox.jpg" caption="Hazel in a box" >}}
 
-{{< image-with-caption src="catimages/ishinicat0.jpg" caption="My friends cat in NYC" >}}
+{{< image-with-caption src="catimages/ishinicat0.jpg" caption="Theo in NYC" >}}
 
 {{< image-with-caption src="catimages/lylacat.jpg" caption="Lyla being sleepy" >}}
 
 {{< image-with-caption src="catimages/nyuadcat0.jpg" caption="Abu Dhabi campus cat" >}}
+
+{{< image-with-caption src="catimages/jxcat0.jpg" caption="小虎 in Tianjin" >}}
