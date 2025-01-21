@@ -91,7 +91,7 @@
     <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
   </article>
 
-  {{- if eq $index (div (len $paginator.Pages) 2) }}
+  {{- if eq $index (div (len $paginator.Pages) 3) }}
     </div>
     <div>
   {{- end }}
