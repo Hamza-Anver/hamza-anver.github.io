@@ -20,3 +20,5 @@ Cute cats!
 {{< image-with-caption src="catimages/nyuadcat0.jpg" caption="Abu Dhabi campus cat" >}}
 
 {{< image-with-caption src="catimages/jxcat0.jpg" caption="小虎 in Tianjin" >}}
+
+{{< image-with-caption src="catimages/picocat0.jpg" caption="Pico at AirQ" >}}

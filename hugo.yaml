@@ -69,23 +69,20 @@ params:
   homeInfoParams:
     Title: "Hello!"
     Content: >
-      - I'm Hamza Anver, from Sri Lanka, currently a Junior at New York University, majoring in Computer Science with a minor in Engineering.
+      -  Hi, I’m **Hamza Anver**, from Sri Lanka. I’m a **Senior at New York University**, majoring in Computer Science with a minor in Engineering. My interests span **embedded systems, electronics, computers, game development, and cats**.  
 
       -
 
-      - I have a strong interest in embedded systems, electronics, computers, game development, cats, and other related subjects.
+      - In **Summer 2025**, I interned at [**Air Q Limited**](https://www.airq-ad.com/) as an Electrical Engineering intern, working on aerospace embedded systems. Earlier that year, in **Spring 2025**, I was a Research Assistant at NYUAD’s [**Integrated Bioelectronics Laboratory**](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/integrated-bioelectronics-laboratory.html), where I designed and manufactured [**OmniStim**](/projects/ibel/omnistim/).  
+
+      - 
+
+      - During **Summer 2024**, I interned at [**Sri Lanka Telecom’s Digital Lab**](https://www.sltdigitallab.lk/). There, I worked on [**synthetic data generation**](/projects/sltdl24/anpr/) for training ML models on Sri Lankan license plates and built an [**Industrial IoT communication library**](/projects/sltdl24/mqttcomms/) that enabled MQTT updates over LTE and WiFi.  
 
       -
 
-      - During the summer of 2024, I interned at [**Sri Lanka Telecom's Digital Lab**](https://www.sltdigitallab.lk/), where I contributed to projects such as [**generating synthetic data**](/projects/sltdl24/anpr/) for training ML models on Sri Lankan license plates. I also developed an [**embedded library**](/projects/sltdl24/mqttcomms/) for Industrial IoT, which facilitated MQTT communication and updates via LTE and WiFi.
+      - In **2023**, I joined [**nyuad.space**](https://nyuad-space.github.io/), a five-person rocketry team at NYUAD’s Engineering Design Studio. My projects included an [**HDRM developed with JUCI**](/projects/nyuadspace23/jucihdrm/), the [**HALOSHIP high-powered rocket**](/projects/nyuadspace23/haloship/), and [**Rocat v1.1**](/projects/nyuadspace23/rocat/), a custom high-speed data logger and flight computer.  
 
-      -
-
-      - In the Spring and summer of 2023, I was part of [**nyuad.space**](https://nyuad-space.github.io/), a rocketry team of five Engineering and Computer Science students based in NYUAD’s Engineering Design Studio. My contributions included working on an [**HDRM in collaboration with JUCI**](/projects/nyuadspace23/jucihdrm/), the [**HALOSHIP high-powered amateur rocket**](/projects/nyuadspace23/haloship/), and [**Rocat v1.1**](/projects/nyuadspace23/rocat/), a custom high-speed data logger and flight computer.
-
-      -
-
-      - Additionally, I enjoy working on personal projects. A recent one is a web-based [**Gridfinity Generator**](https://hamza-anver.github.io/Gridfinity-Generator/), inspired by Zack Freedman (VoidStarLab)'s Gridfinity system.
 
   socialIcons:
   - name: "github"
